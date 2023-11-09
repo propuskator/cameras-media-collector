@@ -1,0 +1,16 @@
+{
+    "extends": [
+        "webbylab"
+    ],
+    "plugins": [
+        "align-assignments",
+        "jest"
+    ],
+    "env": {
+        "jest/globals": true
+    },
+    "rules": {
+        "import/no-commonjs": 0,
+        "align-assignments/align-assignments": [2, { "requiresOnly": false } ]
+    }
+}

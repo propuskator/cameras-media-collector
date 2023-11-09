@@ -1,0 +1,8 @@
+.git/
+.gitignore
+.eslintrc
+.eslintignore
+node_modules/
+README.md
+coverage/
+jest.config.js

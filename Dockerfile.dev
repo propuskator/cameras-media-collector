@@ -1,0 +1,12 @@
+FROM node:14.17.3-alpine
+
+ENV WORKDIR_PATH /app
+
+WORKDIR ${WORKDIR_PATH}
+
+RUN apk update && apk add --no-cache \
+    bash \ 
+    ffmpeg \
+    tzdata
+
+CMD [ "npm", "run", "dev" ]
